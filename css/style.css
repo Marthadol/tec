@@ -1225,7 +1225,7 @@ input:focus {
   }
 
   .cta-index {
-    display: none;
+    display: block;
   }
 
   .cta-btn {
