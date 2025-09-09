@@ -76,7 +76,7 @@ ul {
 }
 
 header img {
-  width: 9rem;
+  width: 8rem;
 }
 
 header {
@@ -206,14 +206,14 @@ section h2 {
 } */
 
 header img {
-  width: 9rem;
+  width: 8rem;
   padding-inline-end: 1.5rem;
 }
 
 .header-1 {
   background: #0d6efd;
   color: #fff;
-  padding: 0.4rem 2rem;
+  padding: 0.2rem 2rem;
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -687,8 +687,9 @@ header ul a:hover,
   color: white;
   text-align: center;
   padding: 60px 20px;
-  border-radius: 12px;
+  border-radius: 5px;
   margin: 50px 0;
+  margin-inline: 0.8rem;
 }
 
 .cta-content h2 {
@@ -752,6 +753,7 @@ header ul a:hover,
   background-color: #f3f8ff;
   padding: 2rem;
   margin-block-start: 2rem;
+  text-align: center;
 }
 
 .about h2 {
@@ -768,7 +770,7 @@ header ul a:hover,
 }
 
 .about img {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .cta-about {
@@ -1023,6 +1025,7 @@ header ul a:hover,
 
 .footer-about img {
   mix-blend-mode: color-burn;
+  padding-inline: 1rem;
 }
 
 .footer-links ul li a {
@@ -1136,6 +1139,7 @@ input:focus {
 
   .cta-about {
     display: inline-block;
+    padding-block: 1.1rem;
   }
 
   /* .nav-links {
@@ -1170,7 +1174,7 @@ input:focus {
   ul {
     /* flex-direction: column; */
     width: 100%;
-    margin: 10px 0;
+    /* margin: 10px 0; */
   }
 
   ul li {
@@ -1183,6 +1187,7 @@ input:focus {
 
   .menu-toggle {
     display: block;
+    font-size: 2.2rem;
   }
 
   .cta-links {
@@ -1191,7 +1196,7 @@ input:focus {
     gap: 1rem;
   }
 
-  .hero-service{
+  .hero-service {
     height: 80%;
   }
 
@@ -1224,6 +1229,7 @@ input:focus {
 
   .cta-btn {
     margin-block: 2rem;
+    font-size: 1rem;
   }
 
   .hero-content2 {
@@ -1231,11 +1237,81 @@ input:focus {
     flex-direction: column;
   }
 
-  .hero-service{
+  .hero-service {
     height: 80%;
   }
 
-  .service-grid {
-    grid-template-columns: 1fr; /* 1 per row on mobile */
+  .menu-toggle {
+    display: block;
+    font-size: 2.3rem;
   }
+
+  header img {
+    width: 7.2rem;
+    padding-inline-end: 1.4rem;
+  }
+
+  .two-cols-section{
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .hero p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.hero h1{
+  font-size: 1.5rem;
+}
+
+.hero-about h1{
+  font-size: 1.5rem;
+}
+
+.hero-about p{
+  font-size: 1rem;
+}
+
+.about-container{
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.admission-hero p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.hero-text h1{
+  font-size: 1.5rem;
+}
+
+.admission-content2{
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.hero-service p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.hero-service h1{
+  font-size: 1.5rem;
+}
+
+.service-grid {
+  grid-template-columns: 1fr; /* 1 per row on mobile */
+}
+
+.about-service{
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+.footer-about img{
+  padding-inline: 4rem;
+}
 }
