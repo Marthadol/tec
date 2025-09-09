@@ -750,10 +750,11 @@ header ul a:hover,
 
 .about {
   margin-block: 4rem;
-  background-color: #f3f8ff;
+  background-color: #fff;
   padding: 2rem;
-  margin-block-start: 2rem;
+  /* margin-block-start: 2rem; */
   text-align: center;
+  margin-top: 1rem;
 }
 
 .about h2 {
@@ -770,7 +771,7 @@ header ul a:hover,
 }
 
 .about img {
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .cta-about {
@@ -1232,13 +1233,25 @@ input:focus {
     font-size: 1rem;
   }
 
+  .about p{
+    font-size: 1rem;
+  }
+
   .hero-content2 {
     display: flex;
     flex-direction: column;
   }
 
+  .admission-content p{
+    font-size: 1rem;
+  }
+
   .hero-service {
     height: 80%;
+  }
+
+  .choose-header p{
+    font-size: 1rem;
   }
 
   .menu-toggle {
@@ -1259,18 +1272,22 @@ input:focus {
   .hero p {
     color: #fff;
     font-size: 1rem;
+    width: 80vw;
 }
 
 .hero h1{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  width: 100vw;
 }
 
 .hero-about h1{
   font-size: 1.5rem;
+  width: 100vw;
 }
 
 .hero-about p{
   font-size: 1rem;
+  width: 80vw;
 }
 
 .about-container{
