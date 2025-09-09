@@ -5,9 +5,15 @@ const closeBtn = document.getElementById("close-btn");
 
 menuBtn.addEventListener("click", () => {
   navLinks.classList.toggle("active");
+  closeBtn.classList.toggle("show")
 
   console.log('we are been clicked')
   // console.log(navContainer)
+})
+
+closeBtn.addEventListener("click", () => {
+  navLinks.classList.remove("active") 
+  closeBtn.classList.remove("show") 
 })
 
 
