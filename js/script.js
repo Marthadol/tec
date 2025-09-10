@@ -12,8 +12,8 @@ menuBtn.addEventListener("click", () => {
 })
 
 closeBtn.addEventListener("click", () => {
-  navLinks.classList.remove("active") 
-  closeBtn.classList.remove("show") 
+  navLinks.classList.remove("active");
+  closeBtn.classList.remove("show"); 
 })
 
 
