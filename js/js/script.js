@@ -11,7 +11,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
       if(age && password && email) {
         alert("Login Successful ✅");
         // Redirect after success
-        location.assign('http://127.0.0.1:5502/cbt.html')
+        location.assign('./cbt.html')
       } else {
         alert("incorrect input ❌");
       }
