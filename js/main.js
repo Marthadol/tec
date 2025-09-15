@@ -20,7 +20,7 @@ const showQuestion = (index) => {
   nextBtn.style.display = index === pages.length - 1 ? 'none' : 'inline-block'; 
 
 };
-
+ 
 prevBtn.addEventListener("click", () => {
   if (currentIndex > 0) {
     currentIndex--;
@@ -42,7 +42,7 @@ submitBtn.addEventListener("click", (event) => {
 
   // Loop through all questions and check selected answers
   pages.forEach((page) => {
-    if (page.value === "C") {
+    if (page.value === "C") { 
       score++; // Correct answer
     }
   });
